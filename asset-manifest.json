@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/bytecorp-test/static/css/main.c6789f76.css",
+    "main.js": "/bytecorp-test/static/js/main.955cc129.js",
+    "static/media/image-0.png": "/bytecorp-test/static/media/image-0.212733a55529cd0eab4e.png",
+    "static/media/image-4.png": "/bytecorp-test/static/media/image-4.c8e4bac5515fc980ac5e.png",
+    "static/media/image-2.png": "/bytecorp-test/static/media/image-2.516bcc69c5df160dfa93.png",
+    "static/media/image-3.png": "/bytecorp-test/static/media/image-3.781428d2d94645815bdf.png",
+    "static/media/image-1.png": "/bytecorp-test/static/media/image-1.b15fada453fc399e7e0a.png",
+    "static/media/spin.png": "/bytecorp-test/static/media/spin.6063dcb6a4b6a0eebb6a.png",
+    "static/media/logo.svg": "/bytecorp-test/static/media/logo.cad8eda889a49f63397bcf730f4d8eba.svg",
+    "static/media/close.svg": "/bytecorp-test/static/media/close.da5c42223be72e07b42078ba244d26c0.svg",
+    "static/media/cart.svg": "/bytecorp-test/static/media/cart.f4b07d1e32723d345eba9b38053f0f70.svg",
+    "index.html": "/bytecorp-test/index.html",
+    "static/media/menu.svg": "/bytecorp-test/static/media/menu.de21b81a52a6b9c39865743a9667d960.svg",
+    "main.c6789f76.css.map": "/bytecorp-test/static/css/main.c6789f76.css.map",
+    "main.955cc129.js.map": "/bytecorp-test/static/js/main.955cc129.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6789f76.css",
+    "static/js/main.955cc129.js"
+  ]
+}
