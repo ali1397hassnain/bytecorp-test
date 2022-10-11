@@ -5,8 +5,12 @@ const size = {
   desktop: "1200px",
 };
 export const device = {
-  mobile: `(min-width: ${size.mobile})`,
-  tablet: `(min-width: ${size.tablet})`,
+  maxMobile: `(max-width: ${size.mobile})`,
+  Mobile: `(min-width: ${size.mobile})`,
+  maxTablet: `(max-width: ${size.tablet})`,
+  Tablet: `(min-width: ${size.tablet})`,
+  maxLaptop: `(max-width: ${size.laptop})`,
   laptop: `(min-width: ${size.laptop})`,
+  maxDesktop: `(max-width: ${size.desktop})`,
   desktop: `(min-width: ${size.desktop})`,
 };

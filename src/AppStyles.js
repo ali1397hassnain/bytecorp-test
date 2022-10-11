@@ -5,7 +5,7 @@ import {device} from "./breakpoints"
 export const AppWrapper = styled.div`
   margin-left: 40px;
   margin-right: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 15px;
 
   @media ${device.tablet} {
     margin-left: 70px;
