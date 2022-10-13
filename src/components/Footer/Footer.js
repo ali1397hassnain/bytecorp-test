@@ -1,10 +1,8 @@
-import React from 'react'
-import { FooterStyled } from './FooterStyles'
+import React from "react";
+import { FooterStyled } from "./FooterStyles";
 
 const Footer = () => {
-  return (
-    <FooterStyled>Watch the video</FooterStyled>
-  )
-}
+  return <FooterStyled>Watch the video</FooterStyled>;
+};
 
-export default Footer
+export default Footer;

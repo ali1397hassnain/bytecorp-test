@@ -5,7 +5,7 @@ import { useStore } from "../../hooks/store.hook";
 
 const FoodInfo = () => {
   const index = useStore((state) => state.index);
-  const indexModule = ((index % 2) + 2) % 2;
+  const indexModule = ((index % 3) + 3) % 3;
 
   return (
     <FoodInfoWrapper

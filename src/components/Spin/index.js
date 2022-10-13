@@ -10,12 +10,11 @@ export default function Spin() {
   return (
     <>
       <SpinBackground
-        backgroundColor={meals[((index % 2) + 2) % 2].backgroundColor}
+        backgroundColor={meals[((index % 3) + 3) % 3].backgroundColor}
       >
         <SpinImage
           style={{ transform: `rotate(-${index * 36}deg)` }}
           src={spinImage}
-          className="spinImage"
           alt="rotating-dishes"
           loading="lazy"
         />

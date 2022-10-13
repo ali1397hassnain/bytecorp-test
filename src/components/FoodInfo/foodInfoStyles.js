@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import {device} from "../../breakpoints"
+import { device } from "../../breakpoints";
 
 export const FoodInfoWrapper = styled.div`
-display: flex;
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
   margin-top: 68vw;
@@ -11,11 +11,11 @@ display: flex;
   align-items: center;
   text-align: center;
 
-  @media ${device.tablet} { 
+  @media ${device.tablet} {
     max-width: 800px;
   }
 
-  @media ${device.laptop} { 
+  @media ${device.laptop} {
     margin-top: 200px;
     width: 28vw;
     justify-content: center;
@@ -26,7 +26,7 @@ display: flex;
   .price {
     font-size: 44px;
     font-weight: 600;
-    color: ${({color}) => color};
+    color: ${({ color }) => color};
   }
 
   .foodName {
@@ -46,10 +46,10 @@ display: flex;
     align-items: center;
     width: 163px;
     height: 48px;
-    background-color: ${({backgroundColor}) => backgroundColor};
-    box-shadow: ${({boxShadow}) => boxShadow};
-    moz-box-shadow: ${({MozBoxShadow}) => MozBoxShadow};
-    webkit-box-shadow: ${({WebkitBoxShadow}) => WebkitBoxShadow};
+    background-color: ${({ backgroundColor }) => backgroundColor};
+    box-shadow: ${({ boxShadow }) => boxShadow};
+    moz-box-shadow: ${({ MozBoxShadow }) => MozBoxShadow};
+    webkit-box-shadow: ${({ WebkitBoxShadow }) => WebkitBoxShadow};
     margin-top: 28px;
     cursor: pointer;
 

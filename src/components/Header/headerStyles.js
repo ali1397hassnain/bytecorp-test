@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import {device} from "../../breakpoints"
+import { device } from "../../breakpoints";
 
 export const HeaderWrapper = styled.div`
-flex-direction: column;
+  flex-direction: column;
   background-color: white;
   height: 100%;
   position: absolute;
@@ -103,18 +103,18 @@ flex-direction: column;
 `;
 
 export const NavButton = styled.div`
-cursor: pointer;
-position: absolute;
-top: 30px;
-left: 30px;
-width: 50px;
-height: 50px;
-@media ${device.tablet} {
-  display: none;
-}
+  cursor: pointer;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 50px;
+  height: 50px;
+  @media ${device.tablet} {
+    display: none;
+  }
 
-.menu {
-  width: 35px;
-  height: 35px;
-}
+  .menu {
+    width: 35px;
+    height: 35px;
+  }
 `;

@@ -73,7 +73,8 @@ export const ImageShown = styled.img`
   top: 31vw;
   height: 32vw;
   width: 32vw;
-  opacity: ${({ opacity }) => opacity} @media ${device.tablet} {
+
+  @media ${device.tablet} {
     right: 39vw;
     top: 28vw;
     width: 21vw;
@@ -140,4 +141,3 @@ export const ButtonIcon = styled.i`
   color: ${({ color }) => color};
   font-size: 38px;
 `;
-
